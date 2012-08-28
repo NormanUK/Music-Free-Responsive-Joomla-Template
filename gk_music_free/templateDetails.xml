@@ -503,6 +503,11 @@
 								</field>
 						</fieldset>
 						
+						<!-- Offline Countdown Settings -->
+						<fieldset name="OFFLINE_SETTINGS" addfieldpath="/templates/gk_music_free/admin/elements">
+							<field name="countdown_date" type="calendar" label="TPL_GK_LANG_COUNTDOWN_DATE" description="TPL_GK_LANG_COUNTDOWN_DATE_DESC" />
+						</fieldset>	
+						
 						<!-- Updates -->
 						<fieldset name="UPDATES" addfieldpath="/templates/gk_music_free/admin/elements">
 								<field name="template_updates" type="update" />

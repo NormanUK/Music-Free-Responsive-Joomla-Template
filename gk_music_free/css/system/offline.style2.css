@@ -7,7 +7,7 @@
 # Website: http://www.gavick.com
 # Support: support@gavick.com 
 */
-
+@import url('../../fonts/BebasNeue/stylesheet.css');
 /* Basic elements */
 ::selection {
 	background: #bd5532;
@@ -239,4 +239,48 @@ label[for="remember"] {
 #system-message-container {
 	margin: 0;
 	padding: 0;
+}
+
+/* countdown styles */
+
+#gkCounterWrap {
+	display: inline-block; 
+	float:none; 
+	width: 100%; 
+	background: #181818; 
+	border-radius:5px;
+}
+
+.countertext{
+	color:#fff;
+	margin:10px;
+	width:580px;
+	float:left;
+	background:#BD5532;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 5px;
+}
+
+.numbers{
+	width:25%;
+	float:left;
+	color:#fff;
+	text-align:center;
+	font-family: 'BebasNeue';
+}
+
+.datetext{
+	width:100%;
+	float:left;
+	font-size:14pt;
+	margin-top:40px;
+}
+
+#gkDays, #gkHours, #gkMinutes, #gkSeconds{
+	margin-top:-40px;
+	width:100%;
+	float:left;
+	font-size:60pt;
+	color:#fff;
 }
